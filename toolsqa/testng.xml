@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+<!--Add test files here -->
+<suite name="TOOLSQA">
+	<suite-files>
+		<suite-file path="./src/test/resources/suitefiles/toolsqasuite.xml" />
+ 	</suite-files>
+</suite>

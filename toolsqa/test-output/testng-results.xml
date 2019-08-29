@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Shop Homepage is loaded :true]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Verify Shoppage is appears]]>
+    </line>
+    <line>
+      <![CDATA[Click on pageinition link :true]]>
+    </line>
+    <line>
+      <![CDATA[Selected color of product :Yellow]]>
+    </line>
+    <line>
+      <![CDATA[Product is Present on shoppage :false]]>
+    </line>
+    <line>
+      <![CDATA[FAIL : expected [true] but found [false]]]>
+    </line>
+    <line>
+      <![CDATA[Shop Homepage is loaded :true]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Verify Shoppage is appears]]>
+    </line>
+    <line>
+      <![CDATA[Click on pageinition link :true]]>
+    </line>
+    <line>
+      <![CDATA[Selected color of product :Yellow]]>
+    </line>
+    <line>
+      <![CDATA[Product Error is Present on shoppage :true]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Verify after selecting color filter product error message appears]]>
+    </line>
+    <line>
+      <![CDATA[Shop Homepage is loaded :true]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Verify Shoppage is loaded]]>
+    </line>
+    <line>
+      <![CDATA[Selected color of product :Yellow]]>
+    </line>
+    <line>
+      <![CDATA[Product is Present on shoppage :true]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Verify after selecting color filter product appears]]>
+    </line>
+    <line>
+      <![CDATA[Selected order of product :Sort by price: low to high]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Verify after selecting order by filter, products price appears as per order]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Verify ToolsQa homepage appears]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Verify product is present on homepage]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Verify product Image is present on homepage]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Verify product Rating is present on homepage]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Verify product Price is present on homepage]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Verify product is present on homepage]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Verify product Image is present on homepage]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Verify product Rating is present on homepage]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Verify product Price is present on homepage]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Verify product is present on homepage]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Verify product Image is present on homepage]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Verify product Rating is present on homepage]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Verify product Price is present on homepage]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Verify product is present on homepage]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Verify product Image is present on homepage]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Verify product Rating is present on homepage]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Verify product Price is present on homepage]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Verify All the details of product]]>
+    </line>
+  </reporter-output>
+  <suite name="TOOLSQA" duration-ms="0" started-at="2019-08-28T13:28:30Z" finished-at="2019-08-28T13:28:30Z">
+    <groups>
+    </groups>
+  </suite> <!-- TOOLSQA -->
+  <suite name="ToolsQa" duration-ms="191006" started-at="2019-08-28T13:25:18Z" finished-at="2019-08-28T13:28:29Z">
+    <groups>
+    </groups>
+    <test name="TestProductColorFilters" duration-ms="106573" started-at="2019-08-28T13:25:18Z" finished-at="2019-08-28T13:27:05Z">
+      <class name="com.atmecs.toolsqa.testscripts.TestColorFilter">
+        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.atmecs.toolsqa.testscripts.TestColorFilter@3108bc]" name="preSetup" is-config="true" duration-ms="11648" started-at="2019-08-28T13:25:18Z" finished-at="2019-08-28T13:25:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method status="FAIL" signature="testColorFilterAndVerifyProduct()[pri:0, instance:com.atmecs.toolsqa.testscripts.TestColorFilter@3108bc]" name="testColorFilterAndVerifyProduct" duration-ms="18234" started-at="2019-08-28T13:25:30Z" finished-at="2019-08-28T13:25:48Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Verify after selecting color filter product appears]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Verify after selecting color filter product appears
+at org.testng.Assert.fail(Assert.java:96)
+at com.atmecs.toolsqa.utils.VerifyResult.verifyTrueAndStopTest(VerifyResult.java:47)
+at com.atmecs.toolsqa.testscripts.TestColorFilter.testColorFilterAndVerifyProduct(TestColorFilter.java:38)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1204)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Shop Homepage is loaded :true]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Verify Shoppage is appears]]>
+            </line>
+            <line>
+              <![CDATA[Click on pageinition link :true]]>
+            </line>
+            <line>
+              <![CDATA[Selected color of product :Yellow]]>
+            </line>
+            <line>
+              <![CDATA[Product is Present on shoppage :false]]>
+            </line>
+            <line>
+              <![CDATA[FAIL : expected [true] but found [false]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testColorFilterAndVerifyProduct -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.atmecs.toolsqa.testscripts.TestColorFilter@3108bc]" name="tearDown" is-config="true" duration-ms="1030" started-at="2019-08-28T13:25:48Z" finished-at="2019-08-28T13:25:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.atmecs.toolsqa.testscripts.TestColorFilter@3108bc]" name="preSetup" is-config="true" duration-ms="8315" started-at="2019-08-28T13:25:49Z" finished-at="2019-08-28T13:25:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method status="PASS" signature="testColorFilterAndVerifyProductError()[pri:0, instance:com.atmecs.toolsqa.testscripts.TestColorFilter@3108bc]" name="testColorFilterAndVerifyProductError" duration-ms="66500" started-at="2019-08-28T13:25:58Z" finished-at="2019-08-28T13:27:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Shop Homepage is loaded :true]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Verify Shoppage is appears]]>
+            </line>
+            <line>
+              <![CDATA[Click on pageinition link :true]]>
+            </line>
+            <line>
+              <![CDATA[Selected color of product :Yellow]]>
+            </line>
+            <line>
+              <![CDATA[Product Error is Present on shoppage :true]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Verify after selecting color filter product error message appears]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testColorFilterAndVerifyProductError -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.atmecs.toolsqa.testscripts.TestColorFilter@3108bc]" name="tearDown" is-config="true" duration-ms="797" started-at="2019-08-28T13:27:04Z" finished-at="2019-08-28T13:27:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.atmecs.toolsqa.testscripts.TestColorFilter -->
+    </test> <!-- TestProductColorFilters -->
+    <test name="TestProductOrderFilters" duration-ms="14507" started-at="2019-08-28T13:27:05Z" finished-at="2019-08-28T13:27:20Z">
+      <class name="com.atmecs.toolsqa.testscripts.TestOrderFIlters">
+        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.atmecs.toolsqa.testscripts.TestOrderFIlters@5ae63ade]" name="preSetup" is-config="true" duration-ms="8692" started-at="2019-08-28T13:27:05Z" finished-at="2019-08-28T13:27:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method status="PASS" signature="testFilterByOrder()[pri:0, instance:com.atmecs.toolsqa.testscripts.TestOrderFIlters@5ae63ade]" name="testFilterByOrder" duration-ms="4812" started-at="2019-08-28T13:27:14Z" finished-at="2019-08-28T13:27:19Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Shop Homepage is loaded :true]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Verify Shoppage is loaded]]>
+            </line>
+            <line>
+              <![CDATA[Selected color of product :Yellow]]>
+            </line>
+            <line>
+              <![CDATA[Product is Present on shoppage :true]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Verify after selecting color filter product appears]]>
+            </line>
+            <line>
+              <![CDATA[Selected order of product :Sort by price: low to high]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Verify after selecting order by filter, products price appears as per order]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testFilterByOrder -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.atmecs.toolsqa.testscripts.TestOrderFIlters@5ae63ade]" name="tearDown" is-config="true" duration-ms="999" started-at="2019-08-28T13:27:19Z" finished-at="2019-08-28T13:27:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.atmecs.toolsqa.testscripts.TestOrderFIlters -->
+    </test> <!-- TestProductOrderFilters -->
+    <test name="TestProductDetails" duration-ms="69868" started-at="2019-08-28T13:27:20Z" finished-at="2019-08-28T13:28:29Z">
+      <class name="com.atmecs.toolsqa.testscripts.TestProductDetails">
+        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.atmecs.toolsqa.testscripts.TestProductDetails@578486a3]" name="preSetup" is-config="true" duration-ms="67539" started-at="2019-08-28T13:27:20Z" finished-at="2019-08-28T13:28:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method status="PASS" signature="testProductDetails()[pri:0, instance:com.atmecs.toolsqa.testscripts.TestProductDetails@578486a3]" name="testProductDetails" duration-ms="1503" started-at="2019-08-28T13:28:27Z" finished-at="2019-08-28T13:28:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[PASS : Verify ToolsQa homepage appears]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Verify product is present on homepage]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Verify product Image is present on homepage]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Verify product Rating is present on homepage]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Verify product Price is present on homepage]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Verify product is present on homepage]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Verify product Image is present on homepage]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Verify product Rating is present on homepage]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Verify product Price is present on homepage]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Verify product is present on homepage]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Verify product Image is present on homepage]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Verify product Rating is present on homepage]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Verify product Price is present on homepage]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Verify product is present on homepage]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Verify product Image is present on homepage]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Verify product Rating is present on homepage]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Verify product Price is present on homepage]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Verify All the details of product]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testProductDetails -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.atmecs.toolsqa.testscripts.TestProductDetails@578486a3]" name="tearDown" is-config="true" duration-ms="822" started-at="2019-08-28T13:28:29Z" finished-at="2019-08-28T13:28:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.atmecs.toolsqa.testscripts.TestProductDetails -->
+    </test> <!-- TestProductDetails -->
+  </suite> <!-- ToolsQa -->
+</testng-results>
